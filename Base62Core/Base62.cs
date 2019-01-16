@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Base62
+namespace Base62Core
 {
     public class Base62
     {

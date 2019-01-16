@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Base62.Example
+namespace Base62Core.Example
 {
     class Program
     {

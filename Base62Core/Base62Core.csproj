@@ -10,6 +10,9 @@
     <PackageProjectUrl>https://github.com/DeyiXu/Base62</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/DeyiXu/Base62/blob/master/LICENSE</PackageLicenseUrl>
     <Copyright>DeyiXu</Copyright>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <Version>1.0.1</Version>
+    <FileVersion>1.0.1.1</FileVersion>
   </PropertyGroup>
 
 </Project>

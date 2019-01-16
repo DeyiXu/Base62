@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Base62
+namespace Base62Core
 {
     /// <summary>
     /// Listk扩展方法
