@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Authors>DeyiXu</Authors>
+    <RepositoryUrl>https://github.com/DeyiXu/Base62</RepositoryUrl>
+    <PackageTags>Base62 Base62Core</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Base62Core</PackageId>
+    <PackageProjectUrl>https://github.com/DeyiXu/Base62</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/DeyiXu/Base62/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>DeyiXu</Copyright>
+  </PropertyGroup>
+
+</Project>
