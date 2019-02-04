@@ -102,11 +102,13 @@ namespace Base62Core
         public static int Decode(string str)
         {
             str = str.Trim();
-            var result = 0;
-            var chars = str.ToCharArray();
+            int strLen = str.Length;
+            int result = 0;
+            char[] chars = str.ToCharArray();
             for (int i = 0; i < chars.Length; i++)
             {
-                result += (int)(EDOC[chars[i]] * Math.Pow(CODE_LENTH, i));
+                int power = strLen - (i + 1);
+                result += (int)(EDOC[chars[i]] * Math.Pow(CODE_LENTH, power));
             }
             return result;
         }

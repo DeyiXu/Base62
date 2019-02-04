@@ -12,7 +12,7 @@ namespace Base62Core
         public static string ToEncodeString(this List<char> result)
         {
             StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < result.Count; i++)
+            for (int i = result.Count - 1; i >= 0; i--)
             {
                 sb.Append(result[i]);
             }
